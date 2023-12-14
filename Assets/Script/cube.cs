@@ -8,6 +8,6 @@ public class cube : MonoBehaviour
     void Update()
     {
 
-        transform.position = transform.position + Time.deltaTime * transform.forward * 3; //The position of the cube is updated at the speed of 4m/s
+        transform.position = transform.position + Time.deltaTime * transform.forward * 4; //The position of the cube is updated at the speed of 4m/s
     }
 }
